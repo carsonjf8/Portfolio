@@ -7,7 +7,7 @@ const DistractedDriver = () => {
     <div className='text-neutral-300 text-[18px]'>
         <p className='text-[48px] font-bold text-white'>Distracted Driver Detection using Deep Learning and Transfer Learning</p>
         <p>Technologies used: Python, TensorFlow, Keras, Transfer Learning, Jupyter, Deep Learning, OpenPose</p>        
-        <p>Click <a href="https://github.com/carsonjf8/Distracted-Driver-Detection">here</a> for the GitHub link and project writeup.</p>
+        <p>Click <a href="https://github.com/carsonjf8/Distracted-Driver-Detection" target='_blank' className='text-blue-700'>here</a> for the GitHub link and project writeup.</p>
         
         <figure className='py-4 pl-8'>
             <img src={distractedDriver} width='300px' height='auto' />
@@ -19,7 +19,7 @@ const DistractedDriver = () => {
 
         <p>
             This was a Kaggle competition that I competed in.
-            It was sponsored by State Farm and was called the <a href="https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data">State Farm Distracted Driver Detection</a> competition.
+            It was sponsored by State Farm and was called the <a href="https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data" target='_blank' className='text-blue-700'>State Farm Distracted Driver Detection</a> competition.
             As I worked on this project, the competition had already ended, but I still treated it as a real competition.
         </p>
         <br />
@@ -83,7 +83,7 @@ const DistractedDriver = () => {
 
         <p>
             In addition, I also used transfer learning through pretrained models to see if those models would have improved scores over my custom ones.
-            The three families of models that I used for transfer learning were <a href="https://arxiv.org/abs/1409.1556">VGG</a>, <a href="https://arxiv.org/abs/1512.03385">ResNet</a>, and <a href="https://arxiv.org/abs/1905.11946">EfficientNet</a>.
+            The three families of models that I used for transfer learning were <a href="https://arxiv.org/abs/1409.1556" target='_blank' className='text-blue-700'>VGG</a>, <a href="https://arxiv.org/abs/1512.03385" target='_blank' className='text-blue-700'>ResNet</a>, and <a href="https://arxiv.org/abs/1905.11946" target='_blank' className='text-blue-700'>EfficientNet</a>.
             For each of these transfer learning based models, I used the pretrained versions and attached some linear layers to the end to fine tune the model on the Distracted Driver training data.
             I also made sure to freeze the pretrained weights on these models so that they would not be messed up while fine tuning on my task-specific data.
             From the VGG family, I used VGG-16 and VGG-19.
@@ -109,7 +109,7 @@ const DistractedDriver = () => {
         </div>
 
         <p>
-            Another approach that was pursued, was using <a href="https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/index.html">OpenPose</a> to analyze and preprocess the images before training the models.
+            Another approach that was pursued, was using <a href="https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/index.html" target='_blank' className='text-blue-700'>OpenPose</a> to analyze and preprocess the images before training the models.
             OpenPose applied annotations to the images and would predict the articulation of the head, face, body, arms, and legs.
             The models that results from training this data were not very good.
             The scoring from Kaggle was considerably worse than the models that did not use OpenPose.

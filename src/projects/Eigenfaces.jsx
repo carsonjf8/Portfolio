@@ -21,7 +21,7 @@ const Eigenfaces = () => {
       </figure>
 
       <p>
-        This project uses <a href="https://en.wikipedia.org/wiki/Eigenface">eigenfaces</a> as a way to train on one set of faces, and then match those learned faces to a set of new faces.
+        This project uses <a href="https://en.wikipedia.org/wiki/Eigenface" target='_blank' className='text-blue-700'>eigenfaces</a> as a way to train on one set of faces, and then match those learned faces to a set of new faces.
         Eigenfaces are a way of using eigenvectors for face recognition in computer vision.
         Faces are represented as flattened vectors of the pixel colors.
         All of the vectors are then stacked together in an N x D matrix where N is the number of faces and D is the product of the width and height of the images.

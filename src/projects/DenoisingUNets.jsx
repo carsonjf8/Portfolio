@@ -7,7 +7,7 @@ const DenoisingUNets = () => {
     <div className='text-neutral-300 text-[18px]'>
         <p className='text-[48px] font-bold text-white'>Image Generation using Denoising U-Nets</p>
         <p>Technologies used: Python, Generative Deep Learning, TensorFlow, Keras, U-Net, NumPy, Matplotlib</p>
-        <p>Click <a href="https://github.com/carsonjf8/Denoising-Diffusion-Probabilistic-Model">here</a> for the GitHub link.</p>
+        <p>Click <a href="https://github.com/carsonjf8/Denoising-Diffusion-Probabilistic-Model" target='_blank' className='text-blue-700'>here</a> for the GitHub link.</p>
         
         <figure className='py-4 pl-8'>
             <img src={unet} width='600px' height='auto' />
@@ -18,7 +18,7 @@ const DenoisingUNets = () => {
         </figure>
 
         <p>
-            For this project, I started with the code from the TensorFlow tutorial on <a href="https://keras.io/examples/generative/ddpm/">Denoising Diffusion Probabilistic Models</a>.
+            For this project, I started with the code from the TensorFlow tutorial on <a href="https://keras.io/examples/generative/ddpm/" target='_blank' className='text-blue-700'>Denoising Diffusion Probabilistic Models</a>.
             This model uses a diffusion process to generate images.
             Diffusion is a process where a model learns how to turn a noisy (random) image, into one that contain a coherent image.
             Using the code from the tutorial as a starting point, I modified the architecture to make it more lightweight while trying to not lose much fidelity in the generated images.

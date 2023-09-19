@@ -7,7 +7,7 @@ const CarRacingGeneticAlg = () => {
     <div className='text-neutral-300 text-[18px]'>
         <p className='text-[48px] font-bold text-white'>Car Racing Simulation using Genetic Algorithms</p>
         <p>Technologies used: Python, Genetic Algorithms, NumPy, PyGame</p>
-        <p>Click <a href="https://github.com/carsonjf8/Car-Racing-Genetic-Algorithm">here</a> for the GitHub link.</p>
+        <p>Click <a href="https://github.com/carsonjf8/Car-Racing-Genetic-Algorithm" target='_blank' className='text-blue-700'>here</a> for the GitHub link.</p>
         
         <figure className='py-4 pl-8'>
             <img src={race} width='300px' height='auto' />

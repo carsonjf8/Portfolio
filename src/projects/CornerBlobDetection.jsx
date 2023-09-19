@@ -7,7 +7,7 @@ const CornerBlobDetection = () => {
     <div className='text-neutral-300 text-[18px]'>
         <p className='text-[48px] font-bold text-white'>Corner and Blob Detection</p>
         <p>Technologies used: Python, OpenCV, Harris Corner Detector, Blob Detection, NumPy, Matplotlib</p>
-        <p>Click <a href="https://github.com/carsonjf8/Corner-and-Blob-Detection">here</a> for the GitHub link.</p>
+        <p>Click <a href="https://github.com/carsonjf8/Corner-and-Blob-Detection" target='_blank' className='text-blue-700'>here</a> for the GitHub link.</p>
         
         <figure className='py-4 pl-8'>
             <img src={cornerDetection} width='400px' height='auto' />
@@ -17,7 +17,7 @@ const CornerBlobDetection = () => {
         </figure>
 
         <p>
-            This is an implementation of the <a href="https://en.wikipedia.org/wiki/Harris_corner_detector">Harris Corner Detector</a> algorithm.
+            This is an implementation of the <a href="https://en.wikipedia.org/wiki/Harris_corner_detector" target='_blank' className='text-blue-700'>Harris Corner Detector</a> algorithm.
             This algorithms works by first converting an image to grayscale.
             Then the derivatives in the x and y directions are calculated.
             Then, using a defined window size and the second moment matrix which is calculated from the derivatives, determine if the corner response function for a pixel is greater than a predefined value.
@@ -33,7 +33,7 @@ const CornerBlobDetection = () => {
         </figure>
 
         <p>
-            This project also has an implementation of the <a href="https://en.wikipedia.org/wiki/Blob_detection">Blob Detector</a> algorithm.
+            This project also has an implementation of the <a href="https://en.wikipedia.org/wiki/Blob_detection" target='_blank' className='text-blue-700'>Blob Detector</a> algorithm.
             This algorithm is able to effectively detect blobs of various sizes and shapes in an image.
             It starts by converting the image to grayscale.
             Then, the image is scales to various sizes.

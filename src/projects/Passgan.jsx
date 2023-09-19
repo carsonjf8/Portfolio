@@ -7,7 +7,7 @@ const Passgan = () => {
         <div className='text-neutral-300 text-[18px]'>
             <p className='text-[48px] font-bold text-white'>PassGAN implementation, using GANs to generate password guesses</p>
             <p>Technologies used: Python, Tensorflow, Keras, GANs, Generative Deep Learning, Jupyter</p>
-            <p>Click <a href="https://github.com/carsonjf8/PassGAN">here</a> for the GitHub link and project writeup.</p>
+            <p>Click <a href="https://github.com/carsonjf8/PassGAN" target='_blank' className='text-blue-700'>here</a> for the GitHub link and project writeup.</p>
             
             <figure className='py-4 pl-8'>
                 <div>
@@ -21,7 +21,7 @@ const Passgan = () => {
             </figure >
 
             <p>
-                This project is an implementation of <i><a href="https://arxiv.org/abs/1709.00440">PassGAN: A Deep Learning Approach for Password Guessing</a></i>.
+                This project is an implementation of <i><a href="https://arxiv.org/abs/1709.00440" target='_blank' className='text-blue-700'>PassGAN: A Deep Learning Approach for Password Guessing</a></i>.
                 This model can be used to generate password guesses to guess passwords.
                 It uses a WGAN-GP architecture to learn the structure and distribution of real passwords from password leaks to be able to generate passwords that follow the same distribution.
                 My work on this project was to reproduce the results that the original researchers did.

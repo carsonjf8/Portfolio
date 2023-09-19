@@ -7,7 +7,7 @@ const RRTRobots = () => {
     <div className='text-neutral-300 text-[18px]'>
         <p className='text-[48px] font-bold text-white'>RRT Sampling for Non-Holonomic Robotic Agents</p>
         <p>Technologies used: Python, RRT, PyBullet, OMPL, NumPy, Jupyter</p>
-        <p>Click <a href="https://github.com/carsonjf8/RRT-for-Nonholonomic-Agents/tree/main">here</a> for the GitHub link.</p>
+        <p>Click <a href="https://github.com/carsonjf8/RRT-for-Nonholonomic-Agents/tree/main" target='_blank' className='text-blue-700'>here</a> for the GitHub link.</p>
         
         <div className='py-4 pl-8'>
             <img src={rrt} width='600px' height='auto' />
@@ -20,10 +20,10 @@ const RRTRobots = () => {
         <p>
             In this project, I developed a planning and physics simulation for a non-holonomic autonomous snake agent.
             I created a maze environment for the agent to travel through from one location to another.
-            Then I implemented the planning algorithm using the <a href="https://ompl.kavrakilab.org/">Open Motion Planning Library (OMPL)</a>.
+            Then I implemented the planning algorithm using the <a href="https://ompl.kavrakilab.org/" target='_blank' className='text-blue-700'>Open Motion Planning Library (OMPL)</a>.
             OMPL is a library for motion planning while abiding by certain constraints.
             OMPL wout generate the plan following the constraints of the environment and the robots and presents the plan.
-            I also used <a href="https://pybullet.org/wordpress/">PyBullet</a>, which is another library that contains physics simulations and collision detections.
+            I also used <a href="https://pybullet.org/wordpress/" target='_blank' className='text-blue-700'>PyBullet</a>, which is another library that contains physics simulations and collision detections.
             The plan is then passed to PyBullet, where it then simulates and visualizes the generated plan.
         </p>
         <br />
@@ -46,7 +46,7 @@ const RRTRobots = () => {
         </div>
 
         <p>
-            <a href="https://en.wikipedia.org/wiki/Rapidly_exploring_random_tree">Rapidly Expanding Random Tree (RRT)</a> is a search algorithm designed to efficiently search a problem space.
+            <a href="https://en.wikipedia.org/wiki/Rapidly_exploring_random_tree" target='_blank' className='text-blue-700'>Rapidly Expanding Random Tree (RRT)</a> is a search algorithm designed to efficiently search a problem space.
             The algorithm begins by initializing a starting node.
             From there, a new node is randomly sampled and then connected to the nearest existing node.
             This node sampling and connection continues untils some end condition is met.
