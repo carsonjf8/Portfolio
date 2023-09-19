@@ -11,7 +11,7 @@ const App = () => {
         <div className='relative px-60'>
           <Routes>
             <Route
-              exact path='/'
+              path='Portfolio'
               element={
                 <div>
                   <Main />
@@ -31,7 +31,8 @@ const App = () => {
             <Route path='/projects/eigenfaces' element={<Eigenfaces />} />
             <Route path='/projects/panorama-stitching' element={<PanoramaStitching />} />
             <Route path='/projects/corner-blob-detection' element={<CornerBlobDetection />} />
-            <Route path='/Portfolio' element={<Navigate replace to='/' />} />
+            <Route path='/' element={<Navigate replace to='/Portfolio' />} />
+            {/*<Route path='/Portfolio' element={<Navigate replace to='/' />} />*/}
           </Routes>
         </div>
       </div>

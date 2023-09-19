@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className='w-full flex justify-between items-center'>
                 {/* logo and title on left side of navbar */}
                 <Link
-                    to='/'
+                    to='/Portfolio'
                     onClick={() => {
                         window.scrollTo(0, 0)
                     }}
