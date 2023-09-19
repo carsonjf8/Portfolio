@@ -11,7 +11,7 @@ const App = () => {
         <div className='relative px-60'>
           <Routes>
             <Route
-              path='Portfolio'
+              path='/Portfolio'
               element={
                 <div>
                   <Main />
@@ -23,14 +23,14 @@ const App = () => {
                 </div>
               }
             />
-            <Route path='/projects/distracted-driver' element={<DistractedDriver />} />
-            <Route path='/projects/passgan' element={<Passgan />} />
-            <Route path='/projects/denoising-unets' element={<DenoisingUNets />} />
-            <Route path='/projects/car-racing-genetic-alg' element={<CarRacingGeneticAlg />} />
-            <Route path='/projects/rrt-robots' element={<RRTRobots />} />
-            <Route path='/projects/eigenfaces' element={<Eigenfaces />} />
-            <Route path='/projects/panorama-stitching' element={<PanoramaStitching />} />
-            <Route path='/projects/corner-blob-detection' element={<CornerBlobDetection />} />
+            <Route path='/Portfolio/projects/distracted-driver' element={<DistractedDriver />} />
+            <Route path='/Portfolio/projects/passgan' element={<Passgan />} />
+            <Route path='/Portfolio/projects/denoising-unets' element={<DenoisingUNets />} />
+            <Route path='/Portfolio/projects/car-racing-genetic-alg' element={<CarRacingGeneticAlg />} />
+            <Route path='/Portfolio/projects/rrt-robots' element={<RRTRobots />} />
+            <Route path='/Portfolio/projects/eigenfaces' element={<Eigenfaces />} />
+            <Route path='/Portfolio/projects/panorama-stitching' element={<PanoramaStitching />} />
+            <Route path='/Portfolio/projects/corner-blob-detection' element={<CornerBlobDetection />} />
             <Route path='/' element={<Navigate replace to='/Portfolio' />} />
             {/*<Route path='/Portfolio' element={<Navigate replace to='/' />} />*/}
           </Routes>

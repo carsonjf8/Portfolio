@@ -2,8 +2,6 @@ import React from 'react';
 import { projects } from '../constants';
 import { motion } from 'framer-motion';
 import { slideInVariant } from '../utils/motion';
-import { ProjectPageWrapper } from '../hoc';
-import { TestProject } from '../projects';
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ index, title, summary, tags, link }) => {
@@ -17,7 +15,7 @@ const ProjectCard = ({ index, title, summary, tags, link }) => {
             <motion.div
                 whileHover={{ scale: 1.1, transition: { duration: 0.1 } }}
             >
-                <Link to={link}>
+                <Link to={`/Portfolio${link}`}>
                     <div className='rounded-2xl bg-gradient-to-r from-cyan-500 to-lime-500 justify-center items-center p-[2px] cursor-pointer'>
                         <div className='rounded-2xl text-white bg-slate-700 justify-center items-center px-3 py-1'>
                             <p className='font-bold text-[24px]'>{title}</p>
