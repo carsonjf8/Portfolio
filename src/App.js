@@ -1,25 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Navbar, Main, About, Skills, Courses, Projects, Contact } from './components';
+import { DistractedDriver, Passgan, DenoisingUNets, CarRacingGeneticAlg, RRTRobots, Eigenfaces, PanoramaStitching, CornerBlobDetection } from './projects';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <div className='relative z-0 bg-slate-950 overflow-hidden min-h-screen'>
+        <Navbar />
+        <div className='relative px-60'>
+          <Routes>
+            <Route
+              exact path='/'
+              element={
+                <div>
+                  <Main />
+                  <About />
+                  <Skills />
+                  <Courses />
+                  <Projects />
+                  <Contact />
+                </div>
+              }
+            />
+            <Route path='/projects/distracted-driver' element={<DistractedDriver />} />
+            <Route path='/projects/passgan' element={<Passgan />} />
+            <Route path='/projects/denoising-unets' element={<DenoisingUNets />} />
+            <Route path='/projects/car-racing-genetic-alg' element={<CarRacingGeneticAlg />} />
+            <Route path='/projects/rrt-robots' element={<RRTRobots />} />
+            <Route path='/projects/eigenfaces' element={<Eigenfaces />} />
+            <Route path='/projects/panorama-stitching' element={<PanoramaStitching />} />
+            <Route path='/projects/corner-blob-detection' element={<CornerBlobDetection />} />
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
+  )
 }
 
 export default App;
