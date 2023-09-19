@@ -32,7 +32,6 @@ const App = () => {
             <Route path='/Portfolio/projects/panorama-stitching' element={<PanoramaStitching />} />
             <Route path='/Portfolio/projects/corner-blob-detection' element={<CornerBlobDetection />} />
             <Route path='/' element={<Navigate replace to='/Portfolio' />} />
-            {/*<Route path='/Portfolio' element={<Navigate replace to='/' />} />*/}
           </Routes>
         </div>
       </div>
