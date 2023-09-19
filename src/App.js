@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import { Navbar, Main, About, Skills, Courses, Projects, Contact } from './components';
 import { DistractedDriver, Passgan, DenoisingUNets, CarRacingGeneticAlg, RRTRobots, Eigenfaces, PanoramaStitching, CornerBlobDetection } from './projects';
 
@@ -31,6 +31,7 @@ const App = () => {
             <Route path='/projects/eigenfaces' element={<Eigenfaces />} />
             <Route path='/projects/panorama-stitching' element={<PanoramaStitching />} />
             <Route path='/projects/corner-blob-detection' element={<CornerBlobDetection />} />
+            <Route path='/Portfolio' element={<Navigate replace to='/' />} />
           </Routes>
         </div>
       </div>

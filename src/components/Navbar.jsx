@@ -13,7 +13,7 @@ const Navbar = () => {
                     }}
                     className='flex items-center gap-5'
                 >
-                    <img src='logo192.png' className='w-12 h-12 object-contain' />
+                    <img src={require('../assets/logo192.png')} className='w-12 h-12 object-contain' />
                     <p className='text-white text-[28px] font-bold'>Carson Forsyth</p>
                 </Link>
 

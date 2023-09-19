@@ -1,4 +1,4 @@
-const about = 'My name is Carson and I a recent graduate from George Mason University with a 4.0 GPA in Computer Science MS with a concentration in Machine Learning. '
+const about = 'My name is Carson and I\'m a recent graduate from George Mason University with a 4.0 GPA in Computer Science MS with a concentration in Machine Learning. '
     + 'I am very passionate and interested in the fields of Machine Learning and Artificial Intelligence. '
     + 'Throughout my schooling as well as my personal projects, I have put a focus on these areas so that I have become knowledgable in these topics. '
     + 'I have expereience with many programming languages, libraries, and tools including Python, PyTorch, Tensorflow, scikit-learn, Tableau, C/C++, Git, and many more. '
