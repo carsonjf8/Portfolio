@@ -68,66 +68,42 @@ const courses = [
 ]
 
 const techs = [
-    {
-        name: 'PyTorch',
-    },
-    {
-        name: 'Tensorflow',
-    },
-    {
-        name: 'scikit-learn',
-    },
-    {
-        name: 'Python',
-    },
-    {
-        name: 'JavaScript',
-    },
-    {
-        name: 'Node.js',
-    },
-    {
-        name: 'HTML',
-    },
-    {
-        name: 'CSS',
-    },
-    {
-        name: 'Tailwind',
-    },
-    {
-        name: 'React.js',
-    },
-    {
-        name: 'C/C++',
-    },
-    {
-        name: 'C#',
-    },
-    {
-        name: 'Java',
-    },
-    {
-        name: 'Git',
-    },
-    {
-        name: 'Golang',
-    },
-    {
-        name: 'Tableau',
-    },
-    {
-        name: 'SQL',
-    },
-    {
-        name: 'Latex',
-    },
-    {
-        name: 'Unity',
-    },
-    {
-        name: 'R',
-    },
+    { name: 'Python' },
+    { name: 'JavaScript' },
+    { name: 'SQL' },
+    { name: 'R' },
+    { name: 'C' },
+    { name: 'C++' },
+    { name: 'C#' },
+    { name: 'Java' },
+    { name: 'Golang' },
+    { name: 'HTML' },
+    { name: 'CSS' },
+
+    { name: 'Tensorflow' },
+    { name: 'PyTorch' },
+    { name: 'IBM Watson' },
+    { name: 'scikit-learn' },
+    { name: 'OpenCV' },
+    { name: 'NumPy' },
+    { name: 'Pandas' },
+    { name: 'Matplotlib' },
+    { name: 'SciPy' },
+
+    { name: 'Node.js' },
+    { name: 'React.js' },
+    { name: 'Tailwind CSS' },
+    { name: 'Keylines' },
+    { name: 'D3.js' },
+
+    { name: 'Tableau' },
+    { name: 'Git' },
+    { name: 'Latex' },
+    { name: 'Unity' },
+    { name: 'OpenGL' },
+    { name: 'MS Office' },
+    { name: 'x86 Assembly' },
+    { name: 'Denodo Platform' },
 ]
 
 const projects = [
